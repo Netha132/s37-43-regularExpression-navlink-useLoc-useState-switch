@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+body{
+  background-color:#433878;
+}
+
+.App {
+  text-align: center;
+  width: 900px;
+  margin: 10px auto;
+ 
+}
+.loginForm{
+  display: inline-block;
+  background-color: #B9E5E8;
+  color: #100;
+  margin: 10px;
+  border-radius: 10px;
+ 
+}
+.loginForm label{
+  display: inline-block;
+  width: 100px;
+  text-align: left;
+}
+.loginForm div{
+  padding: 10px;
+  margin: 10px;
+}
+.languageCheck{
+  position: relative;
+  left: 2.5rem;
+}
+.navBar{
+  background-color: blueviolet;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 2%;
+  padding: 1%;
+}
+.navLink{
+  color: #fff;
+  text-decoration: none;
+}
+.signupForm{
+  display: inline-block;
+  background: linear-gradient(125deg,#B9E5E8,#7AB2D3);
+  color: #000;
+  width: 600px;
+  margin: 10px auto;
+}
+.DOB input{
+  width: 165px;
+}
+.signupForm label{
+  width: 150px;
+  display: inline-block;
+  text-align: left;
+}
+.genderDiv{
+  display: flex;
+  position: relative;
+  left: 4.5rem;
+
+}
+.selectState{
+  width: 170px;
+}
+.genderInputDiv{
+  position: relative;
+  right: 1.5rem;
+}
+.signupForm div{
+  margin: 10px;
+}
+.active{
+  background-color: rgba(179, 194, 208, 0.596);
+  color: #000;
+  padding: 10px; 
+}
+.signupDiv{
+  display: flex;
+  flex-direction: column;
+}
+h1{
+  color: #fff;
+  text-shadow: 0px 0px 10px #000,
+  0px 0px 20px cyan,
+  0px 0px 30px cyan,
+  0px 0px 40px cyan;
+}
+span{
+  width: 100px;
+  display: inline-block;
+}
+.loginBtn{
+  padding: 10px 20px;
+  background-color: rgb(161, 168, 174);
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 600;
+}
+.signupBtn{
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: brown;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+}
+.scoreContainer{
+  max-width: 100%;
+  border: 2px solid #000;
+  background-color: #c1d0f7;
+}
+.scoreLabels{
+  border-bottom: 2px solid #000;
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.scoreBtn{
+  /* border: 2px solid #000; */
+  padding: 10px;
+  margin: 10px;
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.wktBtn{
+  padding: 10px 20px;
+  background-color: #d50606;
+  color: #fff;
+  font-weight: 600;
+}
+.dotBtn{
+  padding: 10px 20px;
+  background-color: #54a4d2;
+  color: #fff;
+  font-weight: 600;
+}
+.singleBtn{
+  padding: 10px 20px;
+  background-color: #315ff7;
+  color: #fff;
+  font-weight: 600;
+}
+.doubleBtn{
+  padding: 10px 20px;
+  background-color: #350c95;
+  color: #fff;
+  font-weight: 600;
+}
+.fourBtn{
+  padding: 10px 20px;
+  background-color: #0675b0;
+  color: #fff;
+  font-weight: 600;
+}
+.sixBtn{
+  padding: 10px 20px;
+  background-color: #4bd904;
+  color: #fff;
+  font-weight: 600;
+}
+.nobBtn{
+  padding: 10px 20px;
+  background-color: #b0a706;
+  color: #fff;
+  font-weight: 600;
+}
+.gameOverDiv{
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+.gameOverSpan{
+  width: 300px;
+  border: 2px solid;
+  font-weight: 600;
+  word-spacing: 10px;
+  letter-spacing: 10px;
+}
+.submitBtn{
+  padding: 10px 20px;
+  background-color: #54a4d2;
+  font-weight: 600;
+}
+.msgBtn{
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #d50606;
+  color: #fff;
+  font-weight: 600;
+}
